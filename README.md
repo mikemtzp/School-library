@@ -1,5 +1,5 @@
 # School-library
-This app lets you manage a library by adding books, adding users like a student or a teacher and by saving records of who borrowed a given book and when. The tool is developed using OOP. Built with Ruby.
+This app lets you manage a school library by adding books, adding users like a student or a teacher and by saving records of who borrowed a given book and when. The tool is developed using OOP classes and modules. Built with Ruby.
 
 ## 🛠️ Built With
 
@@ -12,15 +12,19 @@ This app lets you manage a library by adding books, adding users like a student 
 
 ### Setup
 
-Follow these steps on your console to properly clone this repository on your desktop:
+Open your terminal and navigate to the folder you would like to save the project.
+Type these commands into your terminal:
 
 ```
-$ cd desktop
-$ git clone 'repo_path'
-$ cd 'repo_name'
-$ code .
-Run 'ruby file_name' to see outputs in the console.
-Run 'rubocop' to check linter offenses.
+git clone git@github.com:mikemtzp/School-library.git
+cd School-library
+```
+
+### Run
+
+Type this command into your terminal:
+```
+ruby main.rb
 ```
 
 ## 👤 Authors
