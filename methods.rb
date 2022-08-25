@@ -91,7 +91,7 @@ module Methods
   def list_rentals(rentals)
     print 'ID of person: '
     id = gets.chomp.to_i
-    print ("Rentals:\n")
+    print("Rentals:\n")
     rentals.map do |rental|
       puts "Date: #{rental.date}, Book: \"#{rental.book.title}\" by #{rental.book.author}" if rental.person.id == id
     end
