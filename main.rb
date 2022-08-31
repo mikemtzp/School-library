@@ -19,6 +19,7 @@ def main
     option = gets.chomp.to_i
     option == 7 ? exit = 1 : app.select_option(option)
   end
+  app.preserve_data
   puts 'Thanks for using the app!'
 end
 
