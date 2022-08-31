@@ -1,1 +1,15 @@
-["#<Rental:0x000001effd8f71b0>"]
+[
+  {
+    "person": {
+      "name": "mike",
+      "age": 23,
+      "type": "Student",
+      "id": 557
+    },
+    "book": {
+      "title": "El codigo Da Vinci",
+      "author": "Dan Brown"
+    },
+    "date": "2022/04/23"
+  }
+]
